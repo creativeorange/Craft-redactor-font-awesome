@@ -10,5 +10,7 @@ This plugin brings Font Awesome to your Craft website. To install:
 2. Include the Font Awesome plugin in your Redactor config file located in craft/config/redactor/-your-config-file-.json. To do so, add 'creativeorangeFontAwesome' in the plugins array.
 3.  Activate the plugin in your Craft admin panel
 
+NOTE: Don't forget to include font awesome on your front-end. 
+
 ### Version
 0.9
