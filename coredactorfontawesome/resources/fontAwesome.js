@@ -8,7 +8,7 @@ RedactorPlugins.creativeorangeFontAwesome = function()
             var button = this.button.add('creativeorangeFontAwesome', 'Font Awesome icons');
             this.button.addCallback(button, this.creativeorangeFontAwesome.show);
             
-            this.button.setAwesome('creativeorangeFontAwesome', 'fa-smile-o');
+            this.button.setIcon(button, '<i class="fa fa-smile-o"</i>');
         },
         getTemplate: function(modal, len, icons)
         {
@@ -16,6 +16,10 @@ RedactorPlugins.creativeorangeFontAwesome = function()
             + '<section id="redactor-modal-advanced">'
             + '<div class="iconFilterInput"><input placeholder="Search for icons" id="iconSearchBox" type="text" /></div>'
             + '<div class="iconContents"></div>'
+            + '</section>'
+            + '<section>'
+                + '<button id="redactor-modal-button-action">Insert</button>'
+                + '<button id="redactor-modal-button-cancel">Cancel</button>'
             + '</section>';
         },
         show: function()
@@ -26,7 +30,8 @@ RedactorPlugins.creativeorangeFontAwesome = function()
 	        
             this.modal.addTemplate('creativeorangeFontAwesome', this.creativeorangeFontAwesome.getTemplate(len, icons));
             this.modal.load('creativeorangeFontAwesome', 'Font awesome icons', 800);
-            this.modal.createCancelButton();
+            //this.modal.createCancelButton();
+            
 			
 			var lencount = icons.length;
 			
@@ -49,7 +54,7 @@ RedactorPlugins.creativeorangeFontAwesome = function()
             });
             
             
-            var savebutton = this.modal.createActionButton('Insert');
+            var savebutton = this.modal.getActionButton('Insert');
             savebutton.on('click', this.creativeorangeFontAwesome.insert);
 			
 			this.selection.save();

@@ -12,7 +12,7 @@ class coRedactorFontAwesomePlugin extends BasePlugin
 
 	public function getVersion()
 	{
-		return '0.9';
+		return '1.1';
 	}
 
 	public function getDeveloper()
