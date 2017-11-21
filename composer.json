@@ -1,0 +1,50 @@
+{
+  "name": "svenjungnickel/redactor-font-awesome",
+  "description": "Craft redactor font awesome plugin for Craft 3",
+  "type": "craft-plugin",
+  "version": "2.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "redactorfontawesome"
+  ],
+  "support": {
+    "docs": "https://github.com/SvenJungnickel/Craft-redactor-font-awesome/blob/master/README.md",
+    "issues": "https://github.com/SvenJungnickel/Craft-redactor-font-awesome/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sven Jungnickel",
+      "homepage": "https://github.com/SvenJungnickel"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "~3.0.0-beta.23"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "svenjungnickel\\redactorfontawesome\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Redactor Font Awesome",
+    "handle": "redactor-font-awesome",
+    "developer": "Sven Jungnickel",
+    "developerUrl": "https://github.com/SvenJungnickel/",
+    "schemaVersion": "2.0",
+    "description": "Craft redactor font awesome plugin for Craft 3",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/SvenJungnickel/Craft-redactor-font-awesome/master/CHANGELOG.md",
+    "class": "svenjungnickel\\redactorfontawesome\\RedactorFontAwesome"
+  }
+}

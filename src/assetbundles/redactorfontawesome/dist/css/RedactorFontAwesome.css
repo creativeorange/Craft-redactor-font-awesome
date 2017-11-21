@@ -1,0 +1,23 @@
+@import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+.iconContents div{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px dashed transparent;
+}
+.iconContents div.active{
+    border: 1px dashed #bbb;
+}
+.iconContents div i{
+    font-size: 22px;
+    color: #444;
+}
+.iconContents div span{
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+}
