@@ -2,7 +2,7 @@
 
 ![Image of Craft Redactor Font Awesome](./coFontAwesomePreview.jpg)
 
-This plugin brings Font Awesome to your Craft website.
+This plugin adds the ability to select Font Awesome icons in Redactor in your CP panel. To use this plugin you also need the free [Redactor](https://github.com/craftcms/redactor) plugin. 
 
 ## Download & Installation
 
