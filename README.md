@@ -1,3 +1,6 @@
+**LOOKING FOR THE CRAFT 2.x VERSION?** [Download here](https://github.com/creativeorange/Craft-redactor-font-awesome/archive/1.1.zip)
+
+
 # Craft - Redactor Font Awesome plugin - Craft 3
 
 ![Image of Craft Redactor Font Awesome](./coFontAwesomePreview.jpg)
