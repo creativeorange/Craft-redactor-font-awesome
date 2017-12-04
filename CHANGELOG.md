@@ -9,5 +9,5 @@
 ### Added support for redactor II in Craft CMS 2.5 
 - Version < 2.5 no longer supported - If you need support for Craft < 2.5 please download the [release 1.0](https://github.com/creativeorange/Craft-redactor-font-awesome/archive/1.0.zip) from [creativeorange](https://github.com/creativeorange/Craft-redactor-font-awesome)
 
-## 1.0 - 2015-12-02
+## 1.0 - 2015-06-11
 ### Version for Craft 2.4
