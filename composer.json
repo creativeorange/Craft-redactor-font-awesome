@@ -45,7 +45,7 @@
     "hasCpSettings": false,
     "hasCpSection": false,
     "documentationUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/README.md",
-    "changelogUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/README.md#changelog",
+    "changelogUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/CHANGELOG.md",
     "class": "svenjungnickel\\redactorfontawesome\\RedactorFontAwesome"
   }
 }
