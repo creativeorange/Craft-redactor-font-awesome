@@ -3,9 +3,17 @@ if (!RedactorPlugins) var RedactorPlugins = {};
 RedactorPlugins.fontAwesome = function()
 {
     return {
+        langs: {
+            en: {
+                "fontAwesome": "Font Awesome icons"
+            },
+            de: {
+                "fontAwesome": "Font Awesome Icons"
+            }
+        },
         init: function ()
         {
-            var button = this.button.add('fontAwesome', 'Font Awesome icons');
+            var button = this.button.add('fontAwesome', Craft.t('redactor-font-awesome', 'Font Awesome icons'));
             this.button.addCallback(button, this.fontAwesome.show);
 
             this.button.setIcon(button, '<i class="fa fa-smile-o"</i>');
@@ -14,12 +22,12 @@ RedactorPlugins.fontAwesome = function()
         {
             return String()
                 + '<section id="redactor-modal-advanced">'
-                + '<div class="iconFilterInput"><input placeholder="Search for icons" id="iconSearchBox" type="text" /></div>'
+                + '<div class="iconFilterInput"><input placeholder="' + Craft.t('redactor-font-awesome', 'Search for icons') + '" id="iconSearchBox" type="text" /></div>'
                 + '<div class="iconContents"></div>'
                 + '</section>'
                 + '<section>'
-                + '<button id="redactor-modal-button-action">Insert</button>'
-                + '<button id="redactor-modal-button-cancel">Cancel</button>'
+                + '<button id="redactor-modal-button-action">' + Craft.t('redactor-font-awesome', 'Insert') + '</button>'
+                + '<button id="redactor-modal-button-cancel">' + Craft.t('redactor-font-awesome', 'Cancel') + '</button>'
                 + '</section>';
         },
         show: function()
