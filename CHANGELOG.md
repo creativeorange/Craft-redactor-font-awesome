@@ -1,3 +1,7 @@
+## 2.0.2 - 2015-12-06
+### Updated for Craft3 RC1
+### Added german translation
+
 ## 2.0.1 - 2015-11-25
 ### Added icon
 
