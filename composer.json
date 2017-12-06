@@ -2,7 +2,7 @@
   "name": "svenjungnickel/redactor-font-awesome",
   "description": "Craft redactor font awesome plugin for Craft 3",
   "type": "craft-plugin",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "keywords": [
     "craft",
     "cms",
