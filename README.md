@@ -34,4 +34,4 @@ composer require svenjungnickel/redactor-font-awesome
 2017-11-21: Added support for Craft 3. Craft 2.5 is is no longer supported. If you need support for Craft 2 please download the [release 1.1](https://github.com/creativeorange/Craft-redactor-font-awesome/archive/1.1.zip) from [creativeorange](https://github.com/creativeorange/Craft-redactor-font-awesome)
 
 ## Version
-2.0
+2.0.2
