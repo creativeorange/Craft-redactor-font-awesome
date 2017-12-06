@@ -4,8 +4,9 @@ namespace svenjungnickel\redactorfontawesome;
 
 use Craft;
 use craft\base\Plugin;
-
-use svenjungnickel\redactorfontawesome\assetbundles\RedactorFontAwesome\RedactorFontAwesomeAsset;
+use craft\redactor\events\RegisterPluginPathsEvent;
+use craft\redactor\Field;
+use yii\base\Event;
 
 class RedactorFontAwesome extends Plugin
 {
@@ -22,9 +23,13 @@ class RedactorFontAwesome extends Plugin
         parent::init();
         self::$plugin = $this;
 
-        if (!Craft::$app->request->isConsoleRequest && Craft::$app->request->isCpRequest)
-        {
-            Craft::$app->view->registerAssetBundle(RedactorFontAwesomeAsset::class);
+        if (!Craft::$app->request->isConsoleRequest && Craft::$app->request->isCpRequest) {
+            Event::on(Field::class, Field::EVENT_REGISTER_PLUGIN_PATHS, [$this, 'RegisterPluginPath']);
         }
+    }
+
+    public function RegisterPluginPath(RegisterPluginPathsEvent $event)
+    {
+        $event->paths[] = \dirname(__DIR__) . '/src/resources/';
     }
 }
