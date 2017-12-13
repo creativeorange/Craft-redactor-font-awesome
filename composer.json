@@ -2,7 +2,6 @@
   "name": "svenjungnickel/redactor-font-awesome",
   "description": "Craft redactor font awesome plugin for Craft 3",
   "type": "craft-plugin",
-  "version": "2.0.1",
   "keywords": [
     "craft",
     "cms",
@@ -22,7 +21,7 @@
     }
   ],
   "require": {
-    "craftcms/cms": "~3.0.0-beta.23"
+    "craftcms/cms": "^3.0.0-RC1"
   },
   "repositories": [
     {
@@ -45,7 +44,7 @@
     "hasCpSettings": false,
     "hasCpSection": false,
     "documentationUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/README.md",
-    "changelogUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/README.md#changelog",
+    "changelogUrl": "https://github.com/svenjungnickel/craft-redactor-font-awesome/blob/master/CHANGELOG.md",
     "class": "svenjungnickel\\redactorfontawesome\\RedactorFontAwesome"
   }
 }
