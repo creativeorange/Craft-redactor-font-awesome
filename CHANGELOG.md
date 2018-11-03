@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.5 - 2018-11-02
+- Rewrite plugin for Redactor 2.x
+
 ## 2.0.4 - 2015-12-06
 
 ### Fixed

@@ -1,5 +1,10 @@
 @import '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
+.iconContents {
+    height: 550px;
+    overflow: auto;
+}
+
 .iconContents div{
     width: 25%;
     display: inline-block;
